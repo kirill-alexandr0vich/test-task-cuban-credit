@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vw 4vw;
+  font-family: Rubik, sans-serif;
+
+  a {
+    text-decoration: none;
+  }
+}

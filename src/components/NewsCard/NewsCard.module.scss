@@ -1,0 +1,31 @@
+@import '../../variables';
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  width: 50vw;
+  cursor: pointer;
+
+  .image {
+    height: 20vw;
+    aspect-ratio: 1;
+    object-fit: cover;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+
+    .title {
+      font-size: 2.5vw;
+      font-weight: 800;
+      color: $red;
+    }
+
+    .description {
+      color: $grey;
+    }
+  }
+}

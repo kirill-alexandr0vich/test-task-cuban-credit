@@ -1,0 +1,40 @@
+@import '../../variables';
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .image {
+    width: calc(100% + 8vw);
+  }
+
+  .text {
+    position: absolute;
+    top: 26vw;
+
+    max-width: 52vw;
+    font-size: 2.5vw;
+    font-weight: 800;
+    padding: 1.5vw;
+    color: $white;
+    background-color: $grey;
+    text-transform: uppercase;
+  }
+
+  .today {
+    display: flex;
+    justify-content: space-between;
+    width: 52vw;
+    margin-top: 3vw;
+    font-size: 1.05vw;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: $red;
+
+    > p:last-child {
+      font-weight: 500;
+    }
+  }
+}
